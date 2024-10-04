@@ -2,14 +2,15 @@ html {
     height: 100%;
 }
 body {
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(to top,crimson,deeppink);
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to top,crimson,deeppink);
 
 }
 .title {
+    text-align: center;
     width : 310px;
-  color : crimson;
-  background-color : white;
+    color : crimson;
+    background-color : white;
   
 }
