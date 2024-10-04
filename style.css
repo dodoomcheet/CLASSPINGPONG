@@ -1,7 +1,7 @@
 body {
   display: flex;
   justify-content: center;
-  background: linear-gradient(to bottom,crimson,deeppink);
+  background: linear-gradient(to top,crimson,deeppink);
 
 }
 h1 {
