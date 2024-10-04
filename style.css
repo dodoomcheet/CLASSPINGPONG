@@ -7,7 +7,8 @@ body {
   background: linear-gradient(to top,crimson,deeppink);
 
 }
-h1 {
+.title {
+  margin : 0 10px 0 10px;
   color : crimson;
   background-color : white;
   
