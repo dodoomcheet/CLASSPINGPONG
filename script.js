@@ -1,2 +1,3 @@
 UploadedPosts = [1,2,3];
-let NumbersOfUploadedPosts = UploadedPosts.length();
+let NumberOfUploadedPosts = UploadedPosts.length();
+console.log(UploadedpPosts+" "+NumberOfUploadedPosts)
