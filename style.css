@@ -1,7 +1,10 @@
 body {
   background: linear-gradient(to bottom,crimson,deeppink)
+  display: flex;
+  justify-content: center;
 }
 h1 {
-  color : white;
-  background-color : crimson;
+  color : crimson;
+  background-color : white;
+  
 }
