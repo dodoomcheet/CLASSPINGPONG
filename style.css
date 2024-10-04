@@ -22,6 +22,6 @@ body {
 	text-align: center;
 	width: 310px;
 	color: crimson;
-	background: linear-gradient(to top,crimson,orangered);
+	background: linear-gradient(to top,crimson,white);
 	border: none;
 }
