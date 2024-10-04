@@ -14,3 +14,7 @@ body {
     background-color : white;
   
 }
+.container {
+	grid-template-rows: 200px 200px;
+    row-gap: 100px;
+}
