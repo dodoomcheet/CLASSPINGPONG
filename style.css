@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(to bottom,crimson,deeppink)
+  background: linear-gradient(to bottom,crimson,deeppink);
   display: flex;
   justify-content: center;
 }
