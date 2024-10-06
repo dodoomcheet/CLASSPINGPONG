@@ -26,6 +26,7 @@ body {
 	border: none;
 	rows: 1;
 	cols: 10;
+	margin: 15px;
 }
 .searchbutton {
 	text-align: center;
@@ -36,6 +37,7 @@ body {
 	border-radius: 30px;
 	border: none;
 	font-weight: bold;
+	margin: 15px;
 }
 .postbutton {
 	text-align: center;
@@ -46,4 +48,5 @@ body {
 	border-radius: 30px;
 	border: none;
 	font-weight: bold;
+	margin: 15px;
 }
