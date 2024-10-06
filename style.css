@@ -18,7 +18,14 @@ body {
 	background-color: white;
   
 }
-.postbutton {
+.searchtextarea {
+	text-align: center;
+	height: 100px;
+	color: crimson;
+	border-radius: 30px;
+	border: none;
+}
+.searchbutton {
 	text-align: center;
 	width: 100px;
 	height: 100px;
@@ -28,10 +35,13 @@ body {
 	border: none;
 	font-weight: bold;
 }
-.searchtextarea{
+.postbutton {
 	text-align: center;
+	width: 100px;
 	height: 100px;
 	color: crimson;
+	background-color: white;
 	border-radius: 30px;
 	border: none;
+	font-weight: bold;
 }
