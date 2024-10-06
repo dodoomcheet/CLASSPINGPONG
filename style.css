@@ -18,6 +18,10 @@ body {
 	background-color: white;
   
 }
+.item:nth-child(1) {
+	grid-column: 1;
+	grid-row: 1;
+}
 .searchtextarea {
 	text-align: center;
 	height: 100px;
@@ -27,6 +31,10 @@ body {
 	rows: 1;
 	cols: 10;
 	margin: 15px;
+}
+.item:nth-child(2) {
+	grid-column: 2/3;
+	grid-row: 2;
 }
 .searchbutton {
 	text-align: center;
@@ -39,6 +47,10 @@ body {
 	font-weight: bold;
 	margin: 15px;
 }
+.item:nth-child(3) {
+	grid-column: 3;
+	grid-row: 2;
+}
 .postbutton {
 	text-align: center;
 	width: 100px;
@@ -49,4 +61,8 @@ body {
 	border: none;
 	font-weight: bold;
 	margin: 15px;
+}
+.item:nth-child(4) {
+	grid-column: 4;
+	grid-row: 2;
 }
