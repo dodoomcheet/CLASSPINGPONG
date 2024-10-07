@@ -11,6 +11,6 @@ function check_enter() {
 
 function newpost() {
   let textareaValue = document.getElementById('textarea').value;
-  posts.push();
+  posts.push(textareaValue);
   alert.(posts[posts.length-1]);
 }
