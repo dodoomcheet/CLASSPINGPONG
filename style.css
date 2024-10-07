@@ -17,7 +17,8 @@ body {
   justify-content: center; 
   align-content: center; 
   justify-items: center; 
-  align-items: center; 
+  align-items: center;
+  margin: 0 10px 0 0;
 }
 .a { grid-area: a; }
 .b { grid-area: b; }
