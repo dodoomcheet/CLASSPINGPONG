@@ -9,11 +9,12 @@ body {
 .container {
   display: grid; 
   grid-template-columns: 10fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 10fr; 
   gap: 0px 0px; 
   grid-template-areas: 
     "a a a"
-    "b c d"; 
+    "b c d"
+    "e e e"; 
   justify-content: center; 
   align-content: center; 
   justify-items: center; 
@@ -23,6 +24,7 @@ body {
 .b { grid-area: b; }
 .c { grid-area: c; }
 .d { grid-area: d; }
+.e { grid-area: e; }
 
 .title {
 	text-align: center;
