@@ -7,23 +7,22 @@ body {
 	background: linear-gradient(to top,crimson,deeppink);
 
 }
-.container {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
     "a a a"
-    "b c d";
+    "b c ."; 
+  justify-content: center; 
+  align-content: center; 
+  justify-items: center; 
+  align-items: center; 
 }
-
 .a { grid-area: a; }
-
 .b { grid-area: b; }
-
 .c { grid-area: c; }
-
-.d { grid-area: d; }
 
 .title {
 	text-align: center;
