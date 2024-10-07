@@ -32,6 +32,7 @@ body {
   
 }
 .searchtextarea {
+	resize: none;
 	text-align: center;
 	width: 500px;
 	height: 50px;
