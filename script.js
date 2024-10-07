@@ -9,7 +9,8 @@ function check_enter() {
   }
 }
 
-function newpost(text) {
-  posts.push("text");
+function newpost() {
+  let textareaValue = document.getElementById('textarea').value;
+  posts.push();
   alert.(posts[posts.length-1]);
 }
