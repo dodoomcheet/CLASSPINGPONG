@@ -52,6 +52,7 @@ body {
 	border-radius: 25px;
 	border: none;
 	font-weight: bold;
+	margin: 0 10px 0 0;
 }
 .postbutton {
 	text-align: center;
